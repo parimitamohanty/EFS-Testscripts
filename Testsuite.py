@@ -1,7 +1,7 @@
 from unittest import TestLoader, TestSuite, TextTestRunner
-from WebAutomation.Test.Scripts.CustomerTest import Customer
-from WebAutomation.Test.Scripts.InvestmentTest import Investment
-from WebAutomation.Test.Scripts.StockTest import Stock
+from WebAutomation.Scripts.CustomerTest import Customer
+from WebAutomation.Scripts.InvestmentTest import Investment
+from WebAutomation.Scripts.StockTest import Stock
 
 if __name__ == "__main__":
     loader = TestLoader()
